@@ -31,3 +31,4 @@
 /workspaces/BCBRFS02-dev-environment-pedro/src/Pedro.Api.Backend/obj/Debug/net8.0/Pedro.Api.Backend.pdb
 /workspaces/BCBRFS02-dev-environment-pedro/src/Pedro.Api.Backend/obj/Debug/net8.0/Pedro.Api.Backend.genruntimeconfig.cache
 /workspaces/BCBRFS02-dev-environment-pedro/src/Pedro.Api.Backend/obj/Debug/net8.0/ref/Pedro.Api.Backend.dll
+/workspaces/BCBRFS02-dev-environment-pedro/src/Pedro.Api.Backend/obj/Debug/net8.0/Pedro.Api.Backend.sourcelink.json
