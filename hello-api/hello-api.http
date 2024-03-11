@@ -1,0 +1,6 @@
+@hello_api_HostAddress = http://localhost:5200
+
+POST {{hello_api_HostAddress}}/hello/
+Accept: application/json
+
+###
