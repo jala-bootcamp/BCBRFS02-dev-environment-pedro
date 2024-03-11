@@ -37,7 +37,7 @@ jobs:
           dotnet tool install --global dotnet-sonarscanner
       - name: Build and analyze
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }} # Needed to get PR information, if any
+          GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         run: |
           dotnet-sonarscanner begin /k:"${{secrets.PROJECT_KEY}}" /o:"${{secrets.ORG_KEY}}" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="${{secrets.SONAR_HOST_URL}}"
